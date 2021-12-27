@@ -17,11 +17,12 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 580px) {
   .flex { 
-    display:block;
+    flex-direction: column;
   }
   .rectangle {
     width: 100%;
