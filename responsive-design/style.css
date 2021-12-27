@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .rectangle {
   display: flex;
   position: relative;
@@ -7,13 +11,19 @@
   align-items: center;
   justify-content: center;
 }
-.container {
-  margin-top: 25%;
-  width: 1128px;
-  margin-right: auto;
-  margin-left: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
+
+.flex{
+  display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 580px) {
+  .flex { 
+    display:block;
+  }
+  .rectangle {
+    width: 100%;
+  }
 }
