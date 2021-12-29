@@ -1,0 +1,23 @@
+{
+  "name": "nest-lessons",
+  "version": "1.0.0",
+  "description": "Nest lesson",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --no-source-map --watch landing-page/style.scss landing-page/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylinetenger/nest-lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylinetenger/nest-lesson/issues"
+  },
+  "homepage": "https://github.com/skylinetenger/nest-lesson#readme",
+  "devDependencies": {
+    "sass": "^1.45.1"
+  }
+}

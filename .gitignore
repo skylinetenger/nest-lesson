@@ -1,0 +1,7 @@
+/node_modules/
+
+# dont include sass
+*.scss
+
+yarn.lock
+package-lock.json
